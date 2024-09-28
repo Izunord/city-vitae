@@ -1,10 +1,12 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import App from './App.tsx'
-import './index.css'
+import './css/App.css'
+import './css/index.css'
+import PixelVillage from './components/pixel-village.tsx'
+
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <App />
+    <PixelVillage />
   </StrictMode>,
 )
